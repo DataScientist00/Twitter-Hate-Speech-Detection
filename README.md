@@ -7,9 +7,7 @@
 ![Image](https://github.com/user-attachments/assets/576d07e5-58bd-44e0-9978-5366eb7f3cba)
 
 ## Overview 📚
-This project **analyzes Twitter data** to detect **sentiment (positive/negative/neutral) and hate speech** using **machine learning models**. It features a **Streamlit web app** where users can enter text and get predictions in real-time.
-
-🔗 **Live App:** [YOUR_STREAMLIT_APP_LINK](#)
+This project **analyzes Twitter data** to detect **sentiment (positive/negative/neutral) and hate speech** using **machine learning models**. It features a **Streamlit web app** where users can enter text and get predictions.
 
 ## Dataset 🗂
 - **Source**: Twitter (public datasets on hate speech & sentiment analysis)
