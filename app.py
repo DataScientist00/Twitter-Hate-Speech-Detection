@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the saved model and vectorizer
-svm_model = joblib.load("stacking_model.pkl")
+stacking_model = joblib.load("stacking_model.pkl")
 vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 # Download stopwords
@@ -32,7 +32,7 @@ if st.button("Predict"):
     if user_input.strip() != "":
         cleaned_text = clean_text(user_input)
         transformed_text = vectorizer.transform([cleaned_text])
-        prediction = svm_model.predict(transformed_text)[0]
+        prediction = stacking_model.predict(transformed_text)[0]
 
         result = "Hate Speech 😡" if prediction == 1 else "Not Hate Speech 😊"
         st.title(f"Prediction: **{result}**")
