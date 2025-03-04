@@ -2,7 +2,7 @@
 
 ## Watch the Demo 📺
 
-[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/fsSHQRZSdmU)
+[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/dipnq2uCtr8)
 
 ![Image](https://github.com/user-attachments/assets/576d07e5-58bd-44e0-9978-5366eb7f3cba)
 
